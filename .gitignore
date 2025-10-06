@@ -1,9 +1,16 @@
-    .ipynb_checkpoints/
-    .jupyter/
-    .vscode/
-    .env
-    venv/
-    __pycache__/
-    *.pyc
-    *.log
-    *.tmp
+# Entorno virtual de Python
+**/venv/
+**/env/
+**/.*venv/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+
+# Archivos de compilación
+build/
+dist/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
